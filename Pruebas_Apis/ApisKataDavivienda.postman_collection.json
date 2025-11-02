@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ed9c3ea3-1775-4397-a34d-78c7ddd1aa7d",
+		"_postman_id": "c4bc8e35-463f-4a58-9ef6-64e5168ee490",
 		"name": "Apis Kata Davivienda",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "26002006"
@@ -30,7 +30,8 @@
 							""
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -94,7 +95,8 @@
 							"});"
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -111,7 +113,7 @@
 					},
 					{
 						"key": "Cookie",
-						"value": "orangehrm=93a3dp6bh5v96nfonel41jco0j",
+						"value": "orangehrm=46sbgd0d50uck9pr7nmn816lnb",
 						"type": "text"
 					}
 				],
@@ -173,7 +175,7 @@
 					},
 					{
 						"key": "Cookie",
-						"value": "orangehrm=lgh92uiaqsv17r0pbu8k0fqmlb",
+						"value": "orangehrm=1vik9mi31i43p1kfpns0naunf7",
 						"type": "text"
 					}
 				],
@@ -182,7 +184,7 @@
 					"urlencoded": [
 						{
 							"key": "_token",
-							"value": "e368bf7a0f9225b25569ad632354b.XNcvcCPVbIlHb82kvgkXZj7U2540aozRtu1lrKujskE.HZ1jPkq8DtYhFeDz6059IG2No_ZTGv6SgLJT9unJ9zgd71wiFKYf8HIh_Q",
+							"value": "51f4804.5uBKdkPLdYXEq9ynVM3FQyvXZCo-P-fMG6Ni4MdiUtM.vqx-ODe7Av2u_p2fALStERqNFmdGWcrhTfdXi4ULHKqpsgUTJL071a7qiQ",
 							"type": "text"
 						},
 						{

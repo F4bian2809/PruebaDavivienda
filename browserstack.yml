@@ -1,0 +1,15 @@
+userName: fabianariasnaran_zBj8mx
+accessKey: czf2zhR6FCbKB2gzBwDj
+framework: serenity
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
