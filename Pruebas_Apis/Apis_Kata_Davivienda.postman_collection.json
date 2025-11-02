@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "ed9c3ea3-1775-4397-a34d-78c7ddd1aa7d",
+		"name": "Apis Kata Davivienda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26002006"
+	},
+	"item": [
+		{
+			"name": "Login OrangeHRM",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let cookieHeader = pm.response.headers.get('Set-Cookie');\r",
+							"if (cookieHeader) {\r",
+							"    let cookieValue = cookieHeader.split(';')[0];\r",
+							"    pm.environment.set('session_cookie', cookieValue);\r",
+							"    console.log('Cookie guardada:', cookieValue);\r",
+							"} else {\r",
+							"    console.log('No se recibió cookie de sesión.');\r",
+							"}\r",
+							"\r",
+							"pm.test(\"Response status code is 200\", function () {\r",
+							"    pm.expect(pm.response.code).to.equal(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "Admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"web",
+						"index.php",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validar Empleados",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {\r",
+							"    pm.expect(pm.response.code).to.equal(200);\r",
+							"});\r",
+							"pm.test(\"Estructura básica del JSON\", function () {\r",
+							"    let jsonData = pm.response.json();\r",
+							"\r",
+							"    // Validar que existan las claves esperadas\r",
+							"    pm.expect(jsonData).to.have.property(\"data\");\r",
+							"    pm.expect(jsonData.data[0]).to.have.property(\"empNumber\");\r",
+							"    pm.expect(jsonData.data[0]).to.have.property(\"lastName\");\r",
+							"    pm.expect(jsonData.data[0]).to.have.property(\"firstName\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Referer",
+						"value": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+					},
+					{
+						"key": "Cookie",
+						"value": "orangehrm=93a3dp6bh5v96nfonel41jco0j",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"web",
+						"index.php",
+						"api",
+						"v2",
+						"pim",
+						"employees"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "50"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "model",
+							"value": "detailed"
+						},
+						{
+							"key": "includeEmployees",
+							"value": "onlyCurrent"
+						},
+						{
+							"key": "sortField",
+							"value": "employee.firstName"
+						},
+						{
+							"key": "sortOrder",
+							"value": "ASC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AUT Validate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "orangehrm=lgh92uiaqsv17r0pbu8k0fqmlb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "_token",
+							"value": "e368bf7a0f9225b25569ad632354b.XNcvcCPVbIlHb82kvgkXZj7U2540aozRtu1lrKujskE.HZ1jPkq8DtYhFeDz6059IG2No_ZTGv6SgLJT9unJ9zgd71wiFKYf8HIh_Q",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "Admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate",
+					"protocol": "https",
+					"host": [
+						"opensource-demo",
+						"orangehrmlive",
+						"com"
+					],
+					"path": [
+						"web",
+						"index.php",
+						"auth",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
