@@ -1,0 +1,267 @@
+18:46:23.798 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:46:25.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+18:46:25.268 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+18:46:26.183 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:46:26.306 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+18:46:31.390 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to serenity
+18:46:31.399 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 35826dca-ee74-439f-a881-5f28478c39db
+18:46:31.400 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:46:31.684 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+18:46:31.689 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+18:46:31.689 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+18:46:33.524 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+18:46:33.524 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+18:46:38.946 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+18:46:38.954 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+18:46:39.002 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+18:46:46.451 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:46:52.179 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 0ze8wstvfx2caqc8tyqadhca6utrg5ioebaohwm7
+18:46:52.179 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:46:52.181 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:47:26.600 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:47:54.591 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:47:54.640 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:47:57.991 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:47:58.003 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:47:58.230 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+18:47:58.238 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+18:47:59.477 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 68e21bf1-e882-4c17-9bd1-9a67a24507ce
+18:47:59.477 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:47:59.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3cec650a-f933-4ba7-941d-9e00e4614019
+18:47:59.543 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:47:59.967 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+18:47:59.982 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+18:48:00.016 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+18:48:00.036 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+18:48:01.770 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+18:48:01.770 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+18:48:01.770 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+18:48:01.770 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+18:48:07.101 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+18:48:07.102 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+18:48:07.104 [main] WARN  com.browserstack.v2.SdkCliUtils - Failed to delete zip file: C:\Users\ASUS 15\.browserstack\cli\downloaded_file.zip
+18:48:07.105 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+18:48:07.114 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+18:48:07.188 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+18:48:07.207 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+18:48:15.278 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:48:15.281 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:54:01.261 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/0ze8wstvfx2caqc8tyqadhca6utrg5ioebaohwm7 to view build report, insights, and many more debugging information all at one place!
+
+18:54:01.261 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:54:01.266 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+18:54:11.051 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f830748e9fc52224251e3fd327f5d030cd67cfc3
+18:54:11.051 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:54:11.062 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 35826dca-ee74-439f-a881-5f28478c39db, testhub id: 0ze8wstvfx2caqc8tyqadhca6utrg5ioebaohwm7
+18:54:11.062 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:00:03.579 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:00:05.345 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+19:00:05.348 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+19:00:06.305 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:00:06.465 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:00:11.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to serenity
+19:00:11.667 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: c6c116c6-1702-45bd-b8c3-957fa4e7157a
+19:00:11.668 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:00:11.992 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:00:12.005 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:00:14.441 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:00:14.441 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:00:20.121 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:00:20.130 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:00:20.189 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:00:28.734 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:00:30.620 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: tokhorl5j64uewygg67veqh7whzdiykc5vgxlwpl
+19:00:30.620 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:00:30.620 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:00:46.203 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:01:06.263 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:01:06.263 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:01:08.794 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:01:08.821 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:01:08.941 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:01:08.974 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:01:09.911 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: b78465b8-05a7-478b-be09-656a4ae3c536
+19:01:09.911 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:01:09.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d1316c5a-ddea-4607-bc1e-a5aa83b62ab0
+19:01:09.987 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:01:10.366 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:01:10.377 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:01:10.417 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:01:10.427 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:01:12.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:01:12.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:01:12.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:01:12.757 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:01:18.845 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:01:18.845 [main] WARN  com.browserstack.v2.SdkCliUtils - Failed to delete zip file: C:\Users\ASUS 15\.browserstack\cli\downloaded_file.zip
+19:01:18.846 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:01:18.885 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:01:19.108 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:01:19.117 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:01:19.165 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:01:23.249 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:01:24.204 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:05:41.499 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/tokhorl5j64uewygg67veqh7whzdiykc5vgxlwpl to view build report, insights, and many more debugging information all at one place!
+
+19:05:41.500 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:05:41.503 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:05:51.406 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7fc23b5b427edf5965114dcbb4b1bcd9974af7b2
+19:05:51.407 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:05:51.417 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: c6c116c6-1702-45bd-b8c3-957fa4e7157a, testhub id: tokhorl5j64uewygg67veqh7whzdiykc5vgxlwpl
+19:05:51.417 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:35:40.393 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:35:42.002 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+19:35:42.005 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+19:35:43.302 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:35:43.479 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:35:49.166 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to serenity
+19:35:49.179 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1394d14c-ec3c-4cd9-8a9d-59ca9e8915da
+19:35:49.179 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:35:49.590 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:35:49.601 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:35:52.261 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:35:52.261 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:35:57.466 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:35:57.474 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:35:57.525 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:36:05.745 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:36:07.822 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 0uibkoowuwbklkktugirfczimcxoncduggcdujan
+19:36:07.823 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:36:07.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:36:26.604 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:36:52.709 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:36:52.835 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:36:56.455 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:36:56.626 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:36:56.813 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:36:56.911 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+19:36:58.734 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: f66aa870-4f6b-4d80-8f5a-42780db1733d
+19:36:58.735 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:36:58.880 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 701fce34-f3cc-4e92-ab18-9bb6bab79e67
+19:36:58.881 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:36:59.395 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:36:59.406 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:36:59.463 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:36:59.501 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:37:01.500 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:37:01.501 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:37:01.502 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:37:01.508 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:37:09.566 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:37:09.567 [main] WARN  com.browserstack.v2.SdkCliUtils - Failed to delete zip file: C:\Users\ASUS 15\.browserstack\cli\downloaded_file.zip
+19:37:09.567 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:37:09.610 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:37:16.267 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:37:16.275 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:37:16.321 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:37:17.369 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:37:21.122 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:42:23.328 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/0uibkoowuwbklkktugirfczimcxoncduggcdujan to view build report, insights, and many more debugging information all at one place!
+
+19:42:23.329 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:42:23.331 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:42:34.720 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0199e9a4e34ae0de944f8623f25052f97b34eefe
+19:42:34.721 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:42:34.735 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 1394d14c-ec3c-4cd9-8a9d-59ca9e8915da, testhub id: 0uibkoowuwbklkktugirfczimcxoncduggcdujan
+19:42:34.736 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:49:39.844 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:49:40.999 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+19:49:41.000 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+19:49:41.722 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:49:47.225 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to serenity
+19:49:47.233 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: db72e957-1fc1-4421-bb75-92a83e63dbaa
+19:49:47.234 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:49:47.441 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:49:47.451 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:49:49.112 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:49:49.113 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:49:51.940 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:49:51.946 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:49:51.990 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:50:00.549 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:50:01.801 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ztm31kjd3azuzq8oqckpwtjq9f0wixrqanghs23m
+19:50:01.801 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:50:01.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:50:16.460 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:50:40.749 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:50:41.072 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:50:41.242 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:50:44.246 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:50:44.673 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:50:44.934 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:50:46.171 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7be2695e-2bcb-42d8-a500-d58d02324dcc
+19:50:46.173 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:50:46.796 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:50:46.805 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9e7b4793-c94a-4e8f-946d-b1c9f5ea8300
+19:50:46.807 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:50:46.811 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:47.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: abe5c0dd-79aa-4e43-acc5-2d0b78565476
+19:50:47.012 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:50:47.278 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:50:47.291 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:47.425 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:50:47.435 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:48.633 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:50:48.633 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:50:48.775 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:50:48.775 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:50:48.785 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:50:48.785 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:50:53.608 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:50:53.608 [main] WARN  com.browserstack.v2.SdkCliUtils - Failed to delete zip file: C:\Users\ASUS 15\.browserstack\cli\downloaded_file.zip
+19:50:53.609 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:53.644 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:50:53.734 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:50:53.734 [main] WARN  com.browserstack.v2.SdkCliUtils - Failed to delete zip file: C:\Users\ASUS 15\.browserstack\cli\downloaded_file.zip
+19:50:53.734 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:53.773 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:50:58.498 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:50:58.507 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:50:58.536 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:51:01.525 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:51:01.532 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:51:01.749 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:55:40.357 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+19:55:40.843 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/ztm31kjd3azuzq8oqckpwtjq9f0wixrqanghs23m to view build report, insights, and many more debugging information all at one place!
+
+19:55:40.843 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:55:40.848 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:56:19.854 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:56:21.096 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+19:56:21.098 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+19:56:21.842 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:56:27.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to serenity
+19:56:27.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: f532fd3e-c661-4f3a-8f01-beffcef3caab
+19:56:27.383 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:56:27.590 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:56:27.602 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:56:29.642 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:56:29.642 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:56:32.344 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:56:32.349 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:56:32.381 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:56:40.656 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:56:41.976 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: pygrnsfguwrpii3xjrfvktoviupkoc1spftbucsy
+19:56:41.976 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:56:41.978 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:56:55.127 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:57:09.764 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+19:57:11.504 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:57:12.313 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 763d90fe-3361-4ca3-9bf1-25e2db6401d8
+19:57:12.315 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:57:12.582 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ASUS 15\.browserstack already exist
+19:57:12.590 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:57:13.405 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:57:13.406 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.2.zip
+19:57:18.172 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\ASUS 15\.browserstack\cli
+19:57:18.179 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ASUS 15\.browserstack\cli\binary-win-x64.exe
+19:57:18.215 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=serenity
+19:57:22.714 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:01:21.291 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/pygrnsfguwrpii3xjrfvktoviupkoc1spftbucsy to view build report, insights, and many more debugging information all at one place!
+
+20:01:21.292 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:01:21.296 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+20:01:31.831 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/af3ea582e95de95364aef25dfa50e64a02b1c806
+20:01:31.831 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:01:31.842 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: f532fd3e-c661-4f3a-8f01-beffcef3caab, testhub id: pygrnsfguwrpii3xjrfvktoviupkoc1spftbucsy
+20:01:31.842 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
