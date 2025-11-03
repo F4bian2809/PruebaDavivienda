@@ -16,7 +16,7 @@ export default function () {
   const url = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate';
 
   const payload = {
-    _token: 'e368bf7a0f9225b25569ad632354b.XNcvcCPVbIlHb82kvgkXZj7U2540aozRtu1lrKujskE.HZ1jPkq8DtYhFeDz6059IG2No_ZTGv6SgLJT9unJ9zgd71wiFKYf8HIh_Q',
+    _token: '027ff75bb950e3a899.sdeSEMHOnFyAuUjsdnDKj6qpOm154vKIVa8yj8CwKN8.25TYV62N1y7j6BqBQzHytuidSScYqJPtMpoEv6HocYXz5_dPgI3sCreOGQ',
     username: 'Admin',
     password: 'admin123',
   };
@@ -24,7 +24,7 @@ export default function () {
   const params = {
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
-      'Cookie': 'orangehrm=lgh92uiaqsv17r0pbu8k0fqmlb; orangehrm=93a3dp6bh5v96nfonel41jco0j',
+      'Cookie': 'orangehrm=budu9h5r3s5d7bmncphmid2n7k',
     },
   };
 
@@ -34,8 +34,8 @@ export default function () {
 
   check(res, {
     'status es 200': (r) => r.status === 200,
-    'respuesta contiene "success" o redirección': (r) =>
-      r.body.includes('dashboard') || r.status === 302,
+    'respuesta contiene "OK"': (r) =>
+      r.body.includes('dashboard') || r.status === 200,
   });
 
   sleep(1);

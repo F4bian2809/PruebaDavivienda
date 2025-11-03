@@ -102,3 +102,16 @@ sdk:automate:session-status|558.15
 sdk:setup|12963.857699990273
 sdk:o11y:sync|618.78
 sdk:automate:session-annotation|614.45
+sdk:driver:quit|138.09
+sdk:driver:get|5.64
+sdk:cli:on-bootstrap|44.58380000293255
+sdk:automate:session-name|389.49
+sdk:driver:post-initialization|70.78
+sdk:cli:o11ySync|197.12
+sdk:automate:idle-timeout|0.14190000295639038
+sdk:automate:hub-management|6464.079599991441
+sdk:driver:pre-initialization|4.17
+sdk:automate:session-status|421.72
+sdk:setup|15471.113700002432
+sdk:o11y:sync|203.91
+sdk:automate:session-annotation|199.6
